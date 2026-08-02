@@ -1,8 +1,26 @@
 aid: vcnc
 name: VCNC
-description: VCNC is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  VCNC is a South Korean mobile technology company behind Between, a private
+  messaging and photo-sharing app for couples, and TADA, a ride-hailing and
+  mobility service operating in Korea. A 500 Global portfolio company, VCNC
+  maintains an open source presence on GitHub, including Haeinsa, a multi-row
+  transaction library for HBase published on Maven Central. The company does
+  not currently publish a public developer API, developer portal, or API
+  client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/vcnc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://between.us/static/img/between-meta-img.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobility
+- Ride Hailing
+- Messaging
+- Social
+- Consumer Apps
+- Korea
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,26 @@ maintainers:
 common:
 - type: Website
   url: https://between.us
+- type: Website
+  url: https://www.tadatada.com
+- type: Blog
+  url: https://www.tadatada.com/blog
+- type: Support
+  url: https://help.between.us/hc/en
+- type: GitHubOrganization
+  url: https://github.com/VCNC
+- type: TermsOfService
+  url: https://between.us/policy/terms
+- type: PrivacyPolicy
+  url: https://between.us/policy/privacy
+- type: Packages
+  url: packages/vcnc-packages.yml
+- type: LLMsTxt
+  url: llms/vcnc-llms.txt
+- type: DomainSecurity
+  url: security/vcnc-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

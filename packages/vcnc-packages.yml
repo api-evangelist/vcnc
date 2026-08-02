@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://search.maven.org/solrsearch/select?q=g:kr.co.vcnc*
+notes: >-
+  VCNC publishes no API client SDKs. Its only first-party package on a public
+  registry is Haeinsa, an open source multi-row, multi-table transaction
+  library for HBase (Maven Central, latest 1.0.5). Probes of npm
+  (registry.npmjs.org search "vcnc") and PyPI (pypi.org/pypi/vcnc 404) found
+  no first-party VCNC packages; the VCNC GitHub org's other repos are forks
+  and internal tooling, not published client libraries.
+packages:
+- language: java
+  registry: maven-central
+  name: kr.co.vcnc.haeinsa:haeinsa
+  version: 1.0.5
+  url: https://central.sonatype.com/artifact/kr.co.vcnc.haeinsa/haeinsa
+  install: 'maven: kr.co.vcnc.haeinsa:haeinsa:1.0.5'
+  official: true
+  kind: oss-library
+  source_code: https://github.com/VCNC/haeinsa
+  description: Linearly scalable multi-row, multi-table transaction library for HBase.
